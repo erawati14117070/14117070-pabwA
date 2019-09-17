@@ -1,0 +1,47 @@
+body {
+    background-image: url(bg.jpeg);
+    background-size: 75%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.kotak {
+    width: 70%;
+    height: 14%;
+    background-color: rgba(146, 223, 247, 0.5);
+    margin-top: 100px;
+    float: left;
+}
+
+.kotak h1 {
+    text-align: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #111;
+    padding: 5px 20px;
+    border: 1px solid #111;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
